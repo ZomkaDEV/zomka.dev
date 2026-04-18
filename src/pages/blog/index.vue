@@ -7,20 +7,20 @@
       </p>
 
       <div v-if="posts.length" class="post-list">
-        <article
+        <router-link
           v-for="(post, index) in posts"
           :key="post.slug"
+          :to="`/blog/${post.slug}`"
           class="post-card"
           :style="{ '--delay': `${index * 120}ms` }"
         >
-          <router-link :to="`/blog/${post.slug}`" class="post-title">
-            {{ post.title }}
-          </router-link>
+          <span class="post-title">{{ post.title }}</span>
           <p v-if="post.summary" class="post-summary">{{ post.summary }}</p>
           <p v-if="post.displayDate" class="post-date">
             Posted on {{ post.displayDate }}
           </p>
-        </article>
+          <span class="post-cta">read post</span>
+        </router-link>
       </div>
       <p v-else class="empty">no posts yet.</p>
 
@@ -83,22 +83,34 @@ h1 {
 }
 
 .post-card {
+  display: flex;
+  flex-direction: column;
   padding: 14px 16px;
   border-radius: 16px;
   background: rgba(86, 42, 68, 0.3);
+  color: inherit;
+  text-decoration: none;
   animation: fadeUp 520ms ease-out both;
   animation-delay: var(--delay, 0ms);
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    background 0.2s ease;
+}
+
+.post-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(90, 36, 66, 0.25);
+  background: rgba(102, 50, 80, 0.4);
 }
 
 .post-title {
   display: inline-block;
   font-weight: 600;
   color: #f9d7e6;
-  text-decoration: none;
-}
-
-.post-title:hover {
   text-decoration: underline;
+  text-underline-offset: 0.14em;
+  text-decoration-thickness: 0.08em;
 }
 
 .post-summary {
@@ -111,6 +123,18 @@ h1 {
   margin: 6px 0 0;
   font-size: 12px;
   opacity: 0.7;
+}
+
+.post-cta {
+  margin-top: 12px;
+  width: fit-content;
+  padding: 8px 14px;
+  border-radius: 999px;
+  background: rgba(249, 215, 230, 0.14);
+  color: #ffd7ea;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: lowercase;
 }
 
 .empty {

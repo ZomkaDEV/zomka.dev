@@ -4,7 +4,7 @@
       <div class="hero">
         <div class="avatar-block">
           <div class="avatar-shell">
-            <img alt="Avatar" class="avatar" src="/avatar guff.png" />
+            <img alt="Avatar" class="avatar" src="/guff_smaller.png" />
           </div>
           <div class="social-icons">
             <a

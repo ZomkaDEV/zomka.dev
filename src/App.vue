@@ -11,7 +11,7 @@
         :class="{ loaded: isVideoReady }"
         @canplaythrough="handleVideoReady"
       >
-        <source src="/background.mp4" type="video/mp4" />
+        <source src="https://assets.zomka.dev/background.mp4" type="video/mp4" />
       </video>
     </div>
 

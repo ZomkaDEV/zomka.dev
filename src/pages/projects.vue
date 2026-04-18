@@ -135,12 +135,15 @@ h1 {
   margin: 0 0 6px;
   font-size: 18px;
   font-weight: 600;
-  color: #f9d7e6;
-  text-decoration: none;
+  color: #ffd7ea;
+  text-decoration: underline;
+  text-underline-offset: 0.14em;
+  text-decoration-thickness: 0.08em;
+  transition: color 0.2s ease;
 }
 
 .post-title:hover {
-  text-decoration: underline;
+  color: #fff0f7;
 }
 
 .post-summary {
@@ -152,7 +155,6 @@ h1 {
 .links {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   gap: 12px;
   animation: fadeUp 520ms ease-out both;
 }
@@ -175,10 +177,6 @@ h1 {
 .links a:hover {
   transform: translateY(-2px);
   box-shadow: 0 10px 20px rgba(90, 36, 66, 0.35);
-}
-
-.links {
-  align-self: center;
 }
 
 @keyframes fadeUp {
