@@ -9,7 +9,7 @@
 </template>
 
 <script setup>
-const avatarUrl = new URL("/avatar guff.png", import.meta.url).href;
+const avatarUrl = new URL("/guff_smaller.png", import.meta.url).href;
 </script>
 
 <style scoped>
