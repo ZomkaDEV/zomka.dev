@@ -17,9 +17,7 @@
 
     <v-main>
       <router-view v-slot="{ Component }">
-        <transition name="page" mode="out-in">
-          <component :is="Component" />
-        </transition>
+        <component :is="Component" />
       </router-view>
     </v-main>
 
@@ -92,21 +90,11 @@ onMounted(() => {
 
 .v-main {
   position: relative;
-  z-index: 1;
+  z-index: 2;
 }
 
 .v-application {
   background: transparent;
-}
-
-.page-enter-active,
-.page-leave-active {
-  transition: opacity 320ms ease;
-}
-
-.page-enter-from,
-.page-leave-to {
-  opacity: 0;
 }
 
 .audio-toggle {
