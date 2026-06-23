@@ -22,7 +22,7 @@
             The music used is Arabesque by Incontinent Cell.<br />
             The drawing of my fursona was done by my
             <a href="https://bsky.app/profile/did:plc:6lzzeldgzmefsbi553r45lcp"
-              >partner</a
+              >great friend</a
             >!<br />
             The background video is taken from Steven Universe Future.
           </p>
