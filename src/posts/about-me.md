@@ -9,7 +9,7 @@ Hi everyone! I'm Alisa! I'm a nerd with a fascination for computers and doing wh
 
 I've always been facinated by computers and making them do what I want without any restrictions. Whether it's homebrewing my Wii to run custom tracks for Mario Kart, running and making mods for Minecraft servers, or reverse engineering an overcomplicated Flash game to get some laughs out of me and my friends! (Jackbox :p)
 
-My fursona has been designed by my lovely partner, [Rudra](https://bsky.app/profile/did:plc:6lzzeldgzmefsbi553r45lcp)! You can get the reference sheet for my fursona [here](https://files.catbox.moe/ms77bs.jpg)!
+My fursona has been designed by my friend, [Kvadra](https://bsky.app/profile/did:plc:6lzzeldgzmefsbi553r45lcp)! You can get the reference sheet for my fursona [here](https://files.catbox.moe/ms77bs.jpg)!
 
 ---
 <br/>

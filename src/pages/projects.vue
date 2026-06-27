@@ -20,10 +20,7 @@
             <a href="https://github.com/ZomkaDEV/zomka.dev">here</a
             >!<br /><br />
             The music used is Arabesque by Incontinent Cell.<br />
-            The drawing of my fursona was done by my
-            <a href="https://bsky.app/profile/did:plc:6lzzeldgzmefsbi553r45lcp"
-              >great friend</a
-            >!<br />
+            The drawing of my fursona was done by my great friend, <a href="https://bsky.app/profile/did:plc:6lzzeldgzmefsbi553r45lcp">Kvadra</a>!<br />
             The background video is taken from Steven Universe Future.
           </p>
         </article>
