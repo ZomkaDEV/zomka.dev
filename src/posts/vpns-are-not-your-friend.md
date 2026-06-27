@@ -3,7 +3,7 @@ title: VPNs are not your friend.
 date: 2026-06-28
 summary: Yes, even Mullvad!
 ---
-<center><img style="max-width: 450px" src="https://files.catbox.moe/4kgt8v.png"></img></center>
+<center><img style="max-width: 450px" src="https://files.catbox.moe/bjledw.webp"></img></center>
 
 # VPN companies sell snake oil.
 VPN companies claim to sell trust. They sell it to journalists, pirates, oppressed minorities, and civilians trying to live despite the efforts of their dictatorships.
